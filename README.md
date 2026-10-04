@@ -1,10 +1,9 @@
 # TradeRail Desktop Releases
 
 This repository also publishes `market_calendar.v1.json`, the validated
-offline-first exchange schedule consumed by TradeRail Relay. A weekly workflow
-generates it with the latest compatible `exchange-calendars` 4.x release,
-rejects coverage regressions, and commits the candidate only after a second
-validation in a separate write-enabled job.
+offline-first exchange schedule consumed by TradeRail Relay. It is generated and
+validated by the private source repository's CI, which commits only the
+resulting file here.
 
 TradeRail 데스크톱 앱의 공식 공개 배포 채널입니다.
 
